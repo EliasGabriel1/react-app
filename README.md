@@ -2,9 +2,11 @@
 
 O projeto foi estruturado pra receber um json ou objeto que vem da api, pra uma constante receber em forma de array, porém como na api que eu pretendia usar não encontrei nenhum end point com descrição de varios items, desta maneira:
 
+<img width="701" alt="Captura de tela 2022-08-14 233849" src="https://user-images.githubusercontent.com/50595684/184568994-488a2b2b-ba31-439d-a04c-a46d6b4b193e.png">
 
-por isso acabei reformulando antes de ir para os cards, como está nesse arquivo:
+por isso acabei reformulando na hora que vem do context, antes de ir para os cards, faço um "json" da maneira como viria de uma api enumerando items como a de cima, como está nesse arquivo:
 
+<img width="362" alt="Captura de tela 2022-08-14 234938" src="https://user-images.githubusercontent.com/50595684/184569143-200fca79-5c4e-4f69-a73c-3d269efa7683.png">
 
 
 usei dois context para não precisar fazer ordem de prioridade nas rotas, já que não há necessidade da pessoa acessar o /cards apenas quando tiver "logado".
