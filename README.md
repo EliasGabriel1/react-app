@@ -1,3 +1,15 @@
+## Getting Started with Create React App
+
+O projeto foi estruturado pra receber um json ou objeto que vem da api, pra uma constante receber em forma de array, porém como na api que eu pretendia usar não encontrei nenhum end point com descrição de varios items, desta maneira:
+
+
+por isso acabei reformulando antes de ir para os cards, como está nesse arquivo:
+
+
+
+usei dois context para não precisar fazer ordem de prioridade nas rotas, já que não há necessidade da pessoa acessar o /cards apenas quando tiver "logado".
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -6,6 +18,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install or npm i`
+
+this command installs a package and any packages that it t
+depends on. If the package has a package-lock, or an npm shrinkwrap file, or a yarn lock file, the installation of dependencies will be driven by that, respecting the following order of precedence: npm-shrinkwrap. json.
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -13,21 +30,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
